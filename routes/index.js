@@ -15,7 +15,7 @@ router.post('/login', async function(req, res, next) {
     }
   });
 
-  console.log(a.length);
+  console.log(a);
   res.json({
     success: true
   });
