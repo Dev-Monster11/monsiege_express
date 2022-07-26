@@ -14,7 +14,8 @@ router.post('/login', async function(req, res, next) {
       'authtoken': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoic3RhZmZfbW9iaWxlIiwibmFtZSI6InN0YWZmX21vYmlsZSIsIkFQSV9USU1FIjoxNjU4ODYxNDIwfQ.AWRB9c1Uqy2fVk0dIkf_qPKQZBu3y8Ql-OuiwnRSDgc'
     }
   });
-  console.log(a);
+
+  console.log(a.length);
   res.json({
     success: true
   });
